@@ -14,6 +14,7 @@
 		E9BDA6E52D0DBD00003BE1B9 /* Financial_recoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BDA6E42D0DBD00003BE1B9 /* Financial_recoderTests.swift */; };
 		E9BDA6EF2D0DBD00003BE1B9 /* Financial_recoderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BDA6EE2D0DBD00003BE1B9 /* Financial_recoderUITests.swift */; };
 		E9BDA6F12D0DBD00003BE1B9 /* Financial_recoderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BDA6F02D0DBD00003BE1B9 /* Financial_recoderUITestsLaunchTests.swift */; };
+		E9BDA6FE2D0DC335003BE1B9 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BDA6FD2D0DC335003BE1B9 /* mainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E9BDA6EA2D0DBD00003BE1B9 /* Financial_recoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Financial_recoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9BDA6EE2D0DBD00003BE1B9 /* Financial_recoderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Financial_recoderUITests.swift; sourceTree = "<group>"; };
 		E9BDA6F02D0DBD00003BE1B9 /* Financial_recoderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Financial_recoderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9BDA6FD2D0DC335003BE1B9 /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				E9BDA6D52D0DBCFE003BE1B9 /* ContentView.swift */,
 				E9BDA6D72D0DBD00003BE1B9 /* Assets.xcassets */,
 				E9BDA6D92D0DBD00003BE1B9 /* Preview Content */,
+				E9BDA6FD2D0DC335003BE1B9 /* mainViewController.swift */,
 			);
 			path = Financial_recoder;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				E9BDA6D62D0DBCFE003BE1B9 /* ContentView.swift in Sources */,
 				E9BDA6D42D0DBCFE003BE1B9 /* Financial_recoderApp.swift in Sources */,
+				E9BDA6FE2D0DC335003BE1B9 /* mainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

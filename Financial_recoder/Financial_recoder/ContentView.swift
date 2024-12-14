@@ -1,24 +1,24 @@
-//
-//  ContentView.swift
-//  Financial_recoder
-//
-//  Created by dididadida on 2024/12/14.
-//
-
 import SwiftUI
+import UIKit
+
+// 用UIViewControllerRepresentable來包裝UIKit界面
+struct UIKitView: UIViewControllerRepresentable {
+    func makeUIViewController(context: Context) -> UIViewController {
+        let viewController = mainViewController() // 這是你的UIViewController
+        return viewController
+    }
+    
+    func updateUIViewController(_ uiViewController: UIViewController, context: Context) {}
+}
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        UIKitView() // 在SwiftUI中顯示UIKit界面
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
